@@ -1,8 +1,8 @@
-# 使用方法
+# git食用说明
 
-使用当前目录作为 Git 仓库，我们只需使它`git init`初始化。
+`git init`:仓库初始化.
 
-`git remote add origin git@github.com:yourName/yourRepo.git`
+`git remote add origin git@github.com:yourName/yourRepo.git`:添加远程地址.
 
 后面的yourName和yourRepo表示你再github的用户名和刚才新建的仓库，加完之后进入.git，打开config，这里会多出一个remote "origin"内容，这就是刚才添加的远程地址，也可以直接修改config来配置远程地址。
 
