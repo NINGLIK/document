@@ -4,7 +4,7 @@
 
 `adj.`or`a.`:形容词
 
-`adv.`or`ad`:副词
+`adv.`or`ad.`:副词
 
 `v.`:动词
 
