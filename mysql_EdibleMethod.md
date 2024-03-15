@@ -1,14 +1,13 @@
 # mysql食用说明
 
 ## 库操作
-
-`mysql -u root -p`:连接本地数据库
-
 `show databases;`:查看当前的数据库
 
 `create database 库名`:建立名字为XXX的数据库
 
 `drop database 库名`:删除名字为XXX的数据库
+
+`mysql -u root -p`:连接本地数据库
 
 `mysqldump -u root -p 库名 > XXX.sql`:XXX数据库导出(在系统中执行,而非在mysql终端里)
 
@@ -16,9 +15,9 @@
 
 ## 表操作
 
-`create table 表名()`:创建名字为XXX的表
+`show tables`:查看所有表
 
-`desc 表名`:查看名字为XXX表
+`create table 表名()`:创建名字为XXX的表
 
 `alter table 表名 modify column 列名 数据结构`:操作表中变量修改其的数据结构
 
@@ -32,6 +31,10 @@
 
 `insert into 表名(列名) alues (列名的数值(一一对应))`:初始化表中的变量的数值
 
+<!-- `\connect root@localhost`:连接本地数据库 -->
+
+## 查询
+
 `select * from 表名;`:查看表中的数值
 
-<!-- `\connect root@localhost`:连接本地数据库 -->
+`desc 表名`:查看名字为XXX表
